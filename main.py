@@ -123,14 +123,14 @@ def process_file(yaml_path, pdf_path):
     y = height - MARGIN_TOP
 
     doc = []
-    title = Paragraph("Lukas Scheucher", style_cv_title)
+    title = Paragraph("Conor Cosnett", style_cv_title)
 
     doc += header(
-        name="Lukas Scheucher",
-        mail="lukas@scheuclu.com",
-        phone="0043-677-6100-3595",
-        github="scheuclu",
-        linkedin="scheuclu",
+        name="Conor Cosnett",
+        mail="conorcosnett@gmail.com",
+        phone="00353-87-929-7553",
+        github="ccosnett",
+        linkedin="conorcosnett",
     )
 
     for section in cv["sections"]:

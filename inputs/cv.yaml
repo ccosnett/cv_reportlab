@@ -1,15 +1,15 @@
 #CV_TITLE: standard_cv
-name: Lukas Scheucher
-email: lukas@scheuclu.com
+name: Conor Cosnett
+email: conorcosnett@gmail.com
 #phone: '2125121957'
 # website: scheuclu.com
-linkedin: scheuclu
-github: scheuclu
+linkedin: ccosnett
+github: ccosnett
 # https://raw.githubusercontent.com/scheuclu/hugo_cv/main/pdfgen/cv.pdf
 # downloadlink: https://drive.google.com/file/d/1cwTlfPPMLef-gv71QqaRxkU06rdi_qAi/view?usp=sharing
 
 sections:
-  - heading: Work Experience
+  - heading: Work Experience 2
     logos:
       - /logo_compass.png
       - /logo_toptal.png
@@ -19,9 +19,9 @@ sections:
 
       - heading:
           logo: /logo_compass.png
-          label: CTO - Compass Labs, London
-          startdate: March 2023
-          enddate: present
+          label: Customer Success Manager  - Wolfram Research, Remote
+          startdate: March 2024
+          enddate: June 2024
         points:
           - I actively engage with customers, shape the product and define the roadmap.
           - Techincal lead of 5 engineers.
