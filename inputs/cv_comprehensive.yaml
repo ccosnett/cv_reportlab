@@ -1,0 +1,139 @@
+#CV_TITLE: standard_cv
+name: Conor Cosnett
+email: conorcosnett@gmail.com
+#phone: '2125121957'
+# website: scheuclu.com
+linkedin: ccosnett
+github: ccosnett
+# https://raw.githubusercontent.com/scheuclu/hugo_cv/main/pdfgen/cv.pdf
+# downloadlink: https://drive.google.com/file/d/1cwTlfPPMLef-gv71QqaRxkU06rdi_qAi/view?usp=sharing
+
+sections:
+  - heading: Work Experience
+    logos:
+      - /logo_compass.png
+      - /logo_toptal.png
+      - /logo_google.png
+      - /logo_volkswagen.png
+    subsections:
+
+      - heading:
+          logo: /logo_compass.png
+          label: Customer Success Manager  - Wolfram Research
+          startdate: March 2024
+          enddate: June 2024
+        points:
+          - Managed relationships with top-paying Enterprise Customers (and pair-programmed with them).
+      - heading:
+          logo: /logo_toptal.png
+          label: Customer Facing Mathematica Programmer
+          startdate: June 2022
+          enddate: March 2023
+        points:
+          - Solved over 1200 complex math and programming problems for clients including Boeing, the US Navy, Raytheon, and renowned physicists, e.g. Andrew J. Hanson.
+          - Acted as the team’s subject matter expert for the OpenAI API integration into Mathematica, solving over 200 cases in this area.
+          - Developed an intelligence augmentation system utilizing the OpenAI API that increased my productivity and performance as an engineer.
+          - For more than 1 year I held the highest customer satisfaction rating in the team.
+          - "Achieved a perfect score on the Wolfram Entrance Exam, solving many puzzles including programming this https://github.com/ccosnett/hard-collision-simulator/"
+        
+      - heading:
+          logo: /logo_ef.png
+          label: Founder in Residence - Enterpreneur First, London
+          startdate: Mar 2022
+          enddate: June 2022
+        points:
+          - I was accepted into the 2022 cohort and spent 4 months brainstorming and collaborating with some of the smartest minds of my generation.
+          - EF is a talent investor/startup incubator with a 3% acceptance rate. It is backed by Founders Fund, with notable figures including Reid Hoffman (LinkedIn), Peter Thiel (PayPal), and Demis Hassabis (Google DeepMind).
+      - heading:
+          logo: /logo_google.png
+          label: "Python & SQL Programmer - Liqquid, London"
+          startdate: May 2021
+          enddate: April 2022
+        points:
+          - Wrote code to estimate house prices using large datasets of property features and historical prices in the UK.
+          - Developed a image processing pipeline that extracts valuable data from floorplan images and images of energy performance certificates.
+  - heading: Research Work
+    logos:
+      - /logo_stanford.png
+    subsections:
+      - heading:
+          logo: /logo_tum.png
+          label: Post Graduate Work - TUM, Munich
+          startdate: Jul 2017
+          enddate: Jun 2018
+        points:
+          - Uncertainty quantification in physical simulations using bayesian methods and machine learning.
+          - Design optimization under uncertainty.
+          - Collaborative development of a C++ research code (Full CI/CD pipeline).
+          - Visualization of complex simulation output using Paraview, Plotly, D3.js, ...
+          - Held several positions as teaching assistant.
+      - heading:
+          logo: /logo_stanford.png
+          label: Visiting Graduate Researcher - Stanford University, California
+          startdate: Oct 2016
+          enddate: Jul 2017
+        points:
+          - "Implemented gradient computation in a C++ fluid dynamics [code](https://bitbucket.org/frg/aero-f/src/master/)"
+          - "Application: Parametric shape optimization of flexible wings."
+          - Audited Stanford lecture series on machine learning by Andrew Ng.
+  - heading: Education
+    logos:
+      - /logo_tum.png
+    subsections:
+      - heading:
+          logo: /logo_tum.png
+          label: Dip. Applied Mathematics - University of Galway
+          startdate: Sep 2019
+          enddate: Sep 2020
+        degrees:
+          - First Class Honours with Overall Grade 82%
+      - heading:
+          logo: /logo_tum.png
+          label: B.Sc. Applied Physics - University of Galway
+          startdate: Oct 2012
+          enddate: Jun 2018
+        degrees:
+          - First Class Honours with Overall Grade 75%
+      - heading:
+          label: Professional Certifications - Online, Multiple
+        points:
+            - Total of 16 professional certifications including
+            - "[Blockchain Developer Nanodegree - Udacity](https://confirm.udacity.com/PRDLGCYP)"
+            - "[5-part deep learning specialization -  Deeplearning.ai](https://coursera.org/share/ec095b18337aecea2c101552eeb97dd3)"
+            - "[Decentralized finance - Duke University](https://coursera.org/share/0be4aacea173ecab67e917e79c1ae954)"
+            - "[Full list on LinkedIn](https://www.linkedin.com/in/scheuclu)"
+
+
+# %-----------PROGRAMMING SKILLS-----------
+# \section{Technical Skills}
+#  \begin{itemize}[leftmargin=0.15in, label={}]
+#     \small{\item{
+#     \textbf{Blockchain}{: } \\
+#      \textbf{Languages}{: P} \\
+#      \textbf{Developer Tools}{: } \\
+#      \textbf{Libraries}{: }\\
+#      \textbf{Machine Learning}{: }
+#     }}
+#  \end{itemize}
+
+#  - heading: Technical Skills
+#    logos:
+#      - /logo_python.png
+#      - /logo_pytorch.png
+#      - /logo_react.png
+#      - /logo_sql.png
+#      - /logo_linux.png
+#      - /logo_typescript.png
+#      - /logo_go.png
+#      - /logo_ethereum.png
+#      - /logo_aws.png
+#    points:
+#      - "**Languages**: Python, SQL, Mathematica, Bash"
+#      - "**Frontend**: Next, React, CSS, SASS"
+#      - "**Backend**: Postgres, SQL, API development, Databases, DevOps, CI/CD"
+#      - "**Machine Learning**: Computer Vision, Recurrent Networks, Deep Learning, Model training and selection. Model compression."
+#      - "**Blockchain**: Bitcoin, Ethereum, Solidity, web3.js, Smart-Contracts"
+#      - "**Developer Tools**: Git, Docker, Google Cloud Platform, VIM, IntelliJ"
+#      - "**Libraries**: Tensorflow, Pytorch, OpenMP, MPI, CUDA, Pandas, NumPy, Matplotlib, Plotly, Dash"
+
+
