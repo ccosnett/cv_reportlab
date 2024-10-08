@@ -23,7 +23,7 @@ sections:
           startdate: March 2024
           enddate: June 2024
         points:
-          - Managed relationships with top-paying Enterprise Customers (and pair-programmed with them).
+          - Managed relationships with top-paying Enterprise Customers (pair-programmed with them).
       - heading:
           logo: /logo_toptal.png
           label: Customer Facing Mathematica Programmer
@@ -63,6 +63,7 @@ sections:
           enddate: Sep 2020
         degrees:
           - First Class Honours with Overall Grade 82%
+          - https://github.com/ccosnett/Applied_Mathematics_Thesis/blob/main/Applied_Mathematics_Thesis_.pdf
       - heading:
           logo: /logo_tum.png
           label: B.Sc. Applied Physics - University of Galway
@@ -70,3 +71,5 @@ sections:
           enddate: Jun 2018
         degrees:
           - First Class Honours with Overall Grade 75%
+          - School of Physics Gold Medal
+          - Awarded two funded summer internships
