@@ -23,7 +23,7 @@ sections:
           startdate: March 2024
           enddate: June 2024
         points:
-          - Managed relationships with top-paying Enterprise Customers (and pair-programmed with them).
+          - Managed relationships with top-paying Enterprise Customers (pair-programmed with them).
       - heading:
           logo: /logo_toptal.png
           label: Customer Facing Mathematica Programmer
@@ -31,10 +31,8 @@ sections:
           enddate: March 2023
         points:
           - Solved over 1200 complex math and programming problems for clients including Boeing, the US Navy, Raytheon, and renowned physicists, e.g. Andrew J. Hanson.
-          - Acted as the team’s subject matter expert for the OpenAI API integration into Mathematica, solving over 200 cases in this area.
-          - Developed an intelligence augmentation system utilizing the OpenAI API that increased my productivity and performance as an engineer.
           - For more than 1 year I held the highest customer satisfaction rating in the team.
-          - "Achieved a perfect score on the Wolfram Entrance Exam, solving many puzzles including programming this https://github.com/ccosnett/hard-collision-simulator/"
+          - "Achieved a perfect score on the Wolfram Entrance Exam. Programmed this https://github.com/ccosnett/hard-collision-simulator/"
         
       - heading:
           logo: /logo_ef.png
@@ -62,23 +60,15 @@ sections:
           startdate: Summer 2018
           enddate: Summer 2018
         points:
-            - Awarded a summer internship by the College of Science, NUI Galway.
-            - Extended my final year exoplanet detection system to include localization.
-            - Replaced the 2D Google Inception V3 classifier with a 3D CNN and compared both using ROC curves.
-            - Used an Autoencoder to remove speckle (optical noise) from direct imaging sequences.
-            - Documented the project in a journal-style format.
-    
+           - Extended neural network exoplanet detection system with localization (developed in final year project); replaced 2D Inception V3 with 3D CNN, compared via ROC curves. Applied Autoencoder to remove speckle noise from imaging sequences.  
       - heading:
           logo: /logo_stanford.png
           label: Research Internship - Applied Optics Group, University of Galway
           startdate: Summer 2017
           enddate: Summer 2017
         points:
-            - Awarded a summer internship by the College of Science, NUI Galway.
             - Developed proof of concept for detecting exoplanets by training a neural network on noise-added Gaussian images using Mathematica.
-            - Enhanced classifier by using more realistic training data with the PeX simulator.
-            - Built a custom neural network using TensorFlow, optimized for rapid experimentation on a triple-GPU machine which I built.
-  
+            - Built a custom neural network using TensorFlow, optimized for rapid experimentation on a triple-GPU machine which I built.  
   - heading: Education
     logos:
       - /logo_tum.png
@@ -97,14 +87,14 @@ sections:
           enddate: Jun 2018
         degrees:
           - First Class Honours with Overall Grade 75%
-      - heading:
-          label: Professional Certifications - Online, Multiple
-        points:
-            - Total of 16 professional certifications including
-            - "[Blockchain Developer Nanodegree - Udacity](https://confirm.udacity.com/PRDLGCYP)"
-            - "[5-part deep learning specialization -  Deeplearning.ai](https://coursera.org/share/ec095b18337aecea2c101552eeb97dd3)"
-            - "[Decentralized finance - Duke University](https://coursera.org/share/0be4aacea173ecab67e917e79c1ae954)"
-            - "[Full list on LinkedIn](https://www.linkedin.com/in/scheuclu)"
+#      - heading:
+#          label: Professional Certifications - Online, Multiple
+#        points:
+#            - Total of 16 professional certifications including
+#            - "[Blockchain Developer Nanodegree - Udacity](https://confirm.udacity.com/PRDLGCYP)"
+#            - "[5-part deep learning specialization -  Deeplearning.ai](https://coursera.org/share/ec095b18337aecea2c101552eeb97dd3)"
+#            - "[Decentralized finance - Duke University](https://coursera.org/share/0be4aacea173ecab67e917e79c1ae954)"
+#            - "[Full list on LinkedIn](https://www.linkedin.com/in/scheuclu)"
 
 
 # %-----------PROGRAMMING SKILLS-----------
