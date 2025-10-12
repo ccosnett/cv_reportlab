@@ -165,6 +165,8 @@ def process_file(yaml_path, pdf_path):
     # Specify the file path for the PDF
     # pdf_file = "example.pdf"
 
+    os.makedirs(os.path.dirname(pdf_path), exist_ok=True)
+
     document = SimpleDocTemplate(
         pdf_path,
         pagesize=letter,
