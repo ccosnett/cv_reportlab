@@ -23,10 +23,15 @@ sections:
           startdate: October 2024
           enddate: Present
         points:
-          - Engineer **#3** at Andreessen Horowitz-backed Compass Labs, building a Universal DeFi API with FastAPI and Pydantic.
-          - Shipped nine Aave and token endpoints (supported tokens, rates, balances, transfers) now live at https://docs.compasslabs.ai.
-          - Created live Uniswap V3 and Aave demo positions so prospects can run real playground calls without setup.
-          - Automated onboarding email flows and delivered account abstraction research, improving signup-to-first-call conversion.
+          - Joined as one of the first three engineers at an Andreessen Horowitz–backed DeFi infrastructure startup.
+          - Built and maintained a Python-based Universal DeFi API using FastAPI and Pydantic.
+          - Designed and shipped production endpoints for Aave, Uniswap, and token data (e.g., `aave/rate`, `token/price`, `token/transfer`).
+          - Developed an API bundler enabling on-chain account abstraction and transaction batching.
+          - Created example DeFi positions and live demos for the Compass Labs API playground.
+          - Automated user onboarding email flow and improved developer experience across SDKs.
+          - Conducted research and prototype development on Fireblocks custody, EIP-4337, and EIP-7702.
+          - Contributed to LangChain [PR \#30794](https://github.com/langchain-ai/langchain/pull/30794/commits/0eeaf691d0bde5b427b916946988ac91f98387af) and designed the concept for a DeFi toolkit integration.
+          - Collaborated directly with founders on product direction and early equity structuring.
       - heading:
           logo: /logo_compass.png
           label: Customer Success Manager  - Wolfram Research
