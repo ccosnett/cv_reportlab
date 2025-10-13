@@ -19,6 +19,16 @@ sections:
 
       - heading:
           logo: /logo_compass.png
+          label: Founding Engineer - Compass Labs Ltd
+          startdate: October 2024
+          enddate: Present
+        points:
+          - Engineer **#3** at Andreessen Horowitz-backed Compass Labs, building a Universal DeFi API with FastAPI and Pydantic.
+          - Shipped nine Aave and token endpoints (supported tokens, rates, balances, transfers) now live at https://docs.compasslabs.ai.
+          - Created live Uniswap V3 and Aave demo positions so prospects can run real playground calls without setup.
+          - Automated onboarding email flows and delivered account abstraction research, improving signup-to-first-call conversion.
+      - heading:
+          logo: /logo_compass.png
           label: Customer Success Manager  - Wolfram Research
           startdate: March 2024
           enddate: June 2024
