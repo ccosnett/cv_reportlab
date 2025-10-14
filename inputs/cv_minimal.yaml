@@ -29,7 +29,7 @@ sections:
           - "Designed and implemented custom Aave analytics endpoints for a paying institutional clients (interest rates, volatility, utilization ratios, TVL, and historical transactions)."
           - "Conducted research on EVM transaction bundling efficiency, demonstrating 50-70% gas savings."
           - "Led developer relations engineering: produced educational content and video tutorials for enterprise users (including MoonPay)."
-          - "Proposed and led implementation of new product features: intention-based API design, gasless endpoints, allowance-free UX, and embedded bundling."
+          - "Proposed and led implementation of new product features: intention-based API design, gasless endpoints, allowance-free UX, and embedded tx bundling."
       - heading:
           logo: /logo_compass.png
           label: Customer Success Manager - Wolfram Research
