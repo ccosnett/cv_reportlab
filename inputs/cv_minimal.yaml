@@ -75,7 +75,7 @@ sections:
           enddate: Sep 2020
         degrees:
           - First Class Honours with Overall Grade 82%
-          - "<a href=\"https://github.com/ccosnett/Applied_Mathematics_Thesis/blob/main/Applied_Mathematics_Thesis_.pdf\"><u>Thesis - Wrote the first chapter of a cookbook of SAT Solver recipes. Provided a recipe to encode John Conway's Game of Life in Boolean logic and investigated the Boolean Satisfiability Problem in this context.</u></a>"
+          - "<a href=\"https://github.com/ccosnett/Applied_Mathematics_Thesis/blob/main/Applied_Mathematics_Thesis_.pdf\"><u>Thesis </u></a>"
       - heading:
           logo: /logo_tum.png
           label: B.Sc. Applied Physics - University of Galway
