@@ -75,7 +75,7 @@ sections:
           enddate: Sep 2020
         degrees:
           - First Class Honours with Overall Grade 82%
-          - "<a href=\"https://github.com/ccosnett/Applied_Mathematics_Thesis/blob/main/Applied_Mathematics_Thesis_.pdf\"><u>Thesis </u></a>"
+          - "<a href=\"https://github.com/ccosnett/Applied_Mathematics_Thesis/blob/main/Applied_Mathematics_Thesis_.pdf\"><u>Thesis</u></a>: A Cookbook of SAT Solver Recipes"
       - heading:
           logo: /logo_tum.png
           label: B.Sc. Applied Physics - University of Galway
@@ -83,6 +83,7 @@ sections:
           enddate: Jun 2018
         degrees:
           - First Class Honours with Overall Grade 75%
-          - "Thesis: Detection and localization of exoplanets in direct image sequences using deep learning"
           - School of Physics Gold Medal
           - Awarded two funded summer internships
+          - "<a href=\"https://www.youtube.com/watch?v=U8nhk803HKU\"><u>Thesis</u></a>: Detection and localization of exoplanets in direct image sequences using deep learning"
+
