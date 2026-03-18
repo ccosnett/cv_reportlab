@@ -1,4 +1,9 @@
 .idea/
 /outputs/
 /tidy/
+/uv.lock
 /cv_reportlab.egg-info/
+.DS_Store
+/__pycache__/
+__pycache__/utils.cpython-312.pyc
+/__pycache__/utils.cpython-312.pyc
