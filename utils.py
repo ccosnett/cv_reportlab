@@ -1,6 +1,7 @@
 import re
-from reportlab.platypus import Paragraph
+
 from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import Paragraph
 
 styles = getSampleStyleSheet()
 
@@ -11,7 +12,7 @@ def bullet_points(points, style=styles["Normal"]):
         if isinstance(point, str):
             point = markdown_replace(point)
             bullets.append(Paragraph("<bullet>&bull;</bullet> " + point, style))
-        if isinstance(point, list):
+        if isinstance(point, list): # for listing certificates
             for subpoint in point:
                 subpoint = markdown_replace(subpoint)
                 bullets.append(
@@ -21,6 +22,29 @@ def bullet_points(points, style=styles["Normal"]):
                     )
                 )
     return bullets
+
+
+
+def simple_text(text, style=styles["Normal"]):
+    bullets = []
+    if not text:
+        return []
+    return [Paragraph(markdown_replace(text), style)]
+    for point in points:
+        if isinstance(point, str):
+            point = markdown_replace(point)
+            bullets.append(Paragraph("<bullet>&bull;</bullet> " + point, style))
+        if isinstance(point, list): # for listing certificates
+            for subpoint in point:
+                subpoint = markdown_replace(subpoint)
+                bullets.append(
+                    Paragraph(
+                        "<bullet>&nbsp;&nbsp;&nbsp;&nbsp;&bull;</bullet> " + subpoint,
+                        style,
+                    )
+                )
+    return bullets
+
 
 
 def _bold(s):
@@ -36,29 +60,32 @@ def _bold(s):
         result += r[i]
         i = (i + 1) % 2
         result += spp
-
-    # print("--",result)
     return result
 
 
+def _line_breaks(s):
+    return s.replace('  ','<br></br>')
+
+
+
 def _markdown_links(s):
-    print(s)
-    site = re.compile("\[(.*)\]").search(s)
-    url = re.compile("\((.*)\)").search(s)
+    # site = re.compile("\[(.*)\]").search(s)
+    # url = re.compile("\((.*)\)").search(s)
+
+    sites = re.compile("\[(.*)\]").findall(s)
+    urls = re.compile("\((.*)\)").findall(s)
 
     # "aaaa [Full list on LinkedIn](https://www.linkedin.com/in/scheuclu)"
     # "aaa  <a href='TODO'> word </a>
 
-    if site is not None and url is not None:
-        print(site.group(1), url.group(1))
-        # return s
+    for site, url in zip(sites, urls):
         s = s.replace(
-            f"[{site.group(1)}]({url.group(1)})",
-            f"<a href='{url.group(1)})'> {site.group(1)} </a>",
+            f"[{site}]({url})",
+            f"<a href='{url})'> {site} </a>",
         )
 
     return s
 
 
 def markdown_replace(s):
-    return _markdown_links(_bold(s))
+    return _markdown_links(_line_breaks(_bold(s)))
