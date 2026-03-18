@@ -20,7 +20,7 @@ sections:
           logo: /logo_compass.png
           label: Founding Engineer - Compass Labs Ltd
           startdate: October 2024
-          enddate: Present
+          enddate: November 2025
         points:
           - "Founding engineer at an Andreessen Horowitz - backed DeFi infrastructure startup."
           - "Delivered over 1000 GitHub contributions in 11 months, including to the <a href=\"https://github.com/langchain-ai/langchain/pull/30794/commits/\"><u>LangChain repo.</u></a>"
