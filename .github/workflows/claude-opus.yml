@@ -13,10 +13,10 @@ on:
 jobs:
   claude:
     if: |
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@opus')) ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@opus')) ||
-      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@opus')) ||
-      (github.event_name == 'issues' && (contains(github.event.issue.body, '@opus') || contains(github.event.issue.title, '@opus')))
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude-opus')) ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude-opus')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude-opus')) ||
+      (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude-opus') || contains(github.event.issue.title, '@claude-opus')))
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,7 +34,7 @@ jobs:
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
-          trigger_phrase: "@opus"
+          trigger_phrase: "@claude-opus"
           claude_args: |
             --model claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
