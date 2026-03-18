@@ -1,3 +1,5 @@
 .idea/
 /outputs/
 /tidy/
+/uv.lock
+/cv_reportlab.egg-info/
