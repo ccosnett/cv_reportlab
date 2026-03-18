@@ -1,0 +1,46 @@
+name: Claude Opus 4.6
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened, assigned]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  claude:
+    if: |
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@opus')) ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@opus')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@opus')) ||
+      (github.event_name == 'issues' && (contains(github.event.issue.body, '@opus') || contains(github.event.issue.title, '@opus')))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Claude Code
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          trigger_phrase: "@opus"
+          claude_args: |
+            --model claude-opus-4-6
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_tools: |
+            Bash(git fetch*)
+            Bash(git pull*)
+            WebFetch
+          additional_permissions: |
+            actions: read
