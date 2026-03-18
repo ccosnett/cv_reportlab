@@ -1,1 +1,4 @@
 .idea/
+/outputs/
+/tidy/
+/cv_reportlab.egg-info/
