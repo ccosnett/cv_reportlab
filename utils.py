@@ -72,8 +72,8 @@ def _markdown_links(s):
     # site = re.compile("\[(.*)\]").search(s)
     # url = re.compile("\((.*)\)").search(s)
 
-    sites = re.compile("\[(.*)\]").findall(s)
-    urls = re.compile("\((.*)\)").findall(s)
+    sites = re.compile(r"\[(.*?)\]").findall(s)
+    urls = re.compile(r"\((.*?)\)").findall(s)
 
     # "aaaa [Full list on LinkedIn](https://www.linkedin.com/in/scheuclu)"
     # "aaa  <a href='TODO'> word </a>
@@ -81,7 +81,7 @@ def _markdown_links(s):
     for site, url in zip(sites, urls):
         s = s.replace(
             f"[{site}]({url})",
-            f"<a href='{url})'> {site} </a>",
+            f"<a href='{url}'> {site} </a>",
         )
 
     return s
