@@ -6,7 +6,7 @@ This project generates professional CV/resume PDFs from YAML data files using Py
 
 ## Key Files
 
-- **`inputs/cv_min.yaml`** — The primary CV definition file. This is the most important file in the project. It describes the CV content in a structured YAML format.
+- **`inputs/cv_conor_cosnett.yaml`** — The primary CV definition file. This is the most important file in the project. It describes the CV content in a structured YAML format.
 - **`inputs/`** — Directory containing multiple YAML CV variants (different versions tailored for different purposes). Each YAML file produces a corresponding PDF.
 - **`main.py`** — The main entry point. Reads all YAML files from `inputs/`, processes each one, and generates PDFs in `outputs/`. Contains all PDF layout/styling logic (fonts, margins, paragraph styles, header rendering).
 - **`utils.py`** — Helper functions for rendering bullet points, simple text, and markdown-to-ReportLab conversion (bold via `**`, links, line breaks).
@@ -88,6 +88,6 @@ Runs `flake8` (linting), `isort` (import sorting), and `black` (code formatting)
 ## Important Conventions
 
 - Always run `main.py` from the project root directory since font and resource paths are relative.
-- When editing CV content, only modify files in `inputs/`. The primary CV is `inputs/cv_min.yaml`.
+- When editing CV content, only modify files in `inputs/`. The primary CV is `inputs/cv_conor_cosnett.yaml`.
 - Logo paths in YAML files use `/logo_name.png` format — these resolve to the `logos/` directory.
 - The `outputs/` directory is gitignored; PDFs are generated locally.
